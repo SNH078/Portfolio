@@ -1,0 +1,169 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+
+  .about-containers {
+    flex-wrap: wrap;
+  }
+
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #home-nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: flex;
+  }
+
+  #skills,
+  .skills-details-container {
+    margin-top: 2rem;
+  }
+
+  #profile,
+  .section-container {
+    display: block;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  section {
+    margin: 0 2vw;
+    padding: 2vw 0;
+    min-width: 0;
+  }
+
+  .section_pic-container {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 1rem;
+  }
+
+  .about-containers {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .details-container,
+  .details-containeredu {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section-container {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .about-details-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+    margin-bottom: 3rem; /* pushed down to avoid overlap */
+  }
+
+  .details-containeredu,
+  .details-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    /* margin-bottom: 2rem; */
+  }
+
+  .text-container {
+    padding-bottom:10rem;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem; /* crucial spacing fix */
+  }
+
+  .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 7rem;
+    padding: 0 1rem;
+    text-align: justify;
+  }
+
+  #skills {
+    margin-top: 3rem; /* push down from above section */
+    padding-top: 1rem;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    word-break: break-word;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  #about {
+    padding-bottom: 2rem;
+    position: relative;
+  }
+
+  #about .arrow,
+  .arrow {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+  .nav-links-container {
+    margin-bottom: 0.5rem;
+  }
+
+  footer > p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #555;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+ 
+
+  #skills {
+    margin-top: 3rem;
+    padding-top: 8rem;
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+ 
+
+  #skills{
+    padding-top: 19rem;
+  }
+
+}
